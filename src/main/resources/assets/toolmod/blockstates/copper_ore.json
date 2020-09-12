@@ -1,0 +1,6 @@
+{
+  "variants":
+  {
+    "": { "model": "toolmod:block/copper_ore" }
+  }
+}

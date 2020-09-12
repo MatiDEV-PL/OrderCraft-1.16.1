@@ -1,0 +1,10 @@
+{
+  "parent": "block/orientable",
+  "textures":
+  {
+    "bottom": "toolmod:blocks/paper_block",
+    "top": "toolmod:blocks/paper_block",
+    "side": "toolmod:blocks/paper_block1",
+    "front": "toolmod:blocks/paper_block1"
+  }
+}

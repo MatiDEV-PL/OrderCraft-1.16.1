@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "toolmod:block/aurora_block" }
+  }
+}

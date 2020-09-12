@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " C ",
+        " S ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "toolmod:aurora_fragment"
+        },
+        
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "toolmod:aurora_shovel",
+        "count": 1
+    }
+}

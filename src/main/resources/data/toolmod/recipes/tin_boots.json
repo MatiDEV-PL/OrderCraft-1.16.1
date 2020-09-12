@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "C C",
+        "C C",
+        "   "
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "toolmod:tin_ingot"
+        }
+      
+    },
+    
+    "result":
+    {
+        "item": "toolmod:tin_boots",
+        "count": 1
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CC ",
+        " S ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "minecraft:emerald"
+        },
+        
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "toolmod:emerald_hoe",
+        "count": 1
+    }
+}

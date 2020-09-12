@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "C C",
+        "C C",
+        "   "
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "minecraft:emerald"
+        }
+      
+    },
+    
+    "result":
+    {
+        "item": "toolmod:emerald_boots",
+        "count": 1
+    }
+}

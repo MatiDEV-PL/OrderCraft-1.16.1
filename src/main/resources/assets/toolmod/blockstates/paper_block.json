@@ -1,0 +1,6 @@
+{
+  "variants":
+  {
+    "": { "model": "toolmod:block/paper_block" }
+  }
+}

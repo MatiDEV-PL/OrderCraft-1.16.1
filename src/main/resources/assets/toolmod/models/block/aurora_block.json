@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "toolmod:blocks/aurora_block_bottom",
+    "up": "toolmod:blocks/aurora_block_top",
+    "north": "toolmod:blocks/aurora_block",
+    "east": "toolmod:blocks/aurora_block",
+    "south": "toolmod:blocks/aurora_block",
+    "west": "toolmod:blocks/aurora_block",
+    "particle": "toolmod:blocks/aurora_block_bottom"
+  }
+}

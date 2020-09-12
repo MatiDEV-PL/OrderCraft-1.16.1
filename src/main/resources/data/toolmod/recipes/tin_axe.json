@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "CC ",
+    "CS ",
+    " S "
+  ],
+
+  "key":
+  {
+    "C":
+    {
+      "item": "toolmod:tin_ingot"
+    },
+
+    "S":
+    {
+      "item": "minecraft:stick"
+    }
+
+  },
+
+  "result":
+  {
+    "item": "toolmod:tin_axe",
+    "count": 1
+  }
+}

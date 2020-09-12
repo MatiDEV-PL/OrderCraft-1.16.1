@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CCC",
+        " S ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+            "item": "toolmod:aurora_fragment"
+        },
+        
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "toolmod:aurora_pickaxe",
+        "count": 1
+    }
+}
