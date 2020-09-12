@@ -17,7 +17,7 @@ public enum ModItemTier implements IItemTier {
     Aurora_Fragment(2, 800, 6.0F, 3.0F, 8, () -> {
         return Ingredient.fromItems(RegistryHandler.Aurora_Fragment.get());
     }),
-    Emerald(3, 800, 9.5F, 4.0F, 10, () -> {
+    Emerald(3, 800, 9.5F, 6.0F, 10, () -> {
         return Ingredient.fromItems(new IItemProvider[]{Items.EMERALD});
     }),
     Tin(1, 200, 4.5F, 2.0F, 10, () -> {
