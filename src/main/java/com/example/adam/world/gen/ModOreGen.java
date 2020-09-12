@@ -35,8 +35,8 @@ public class ModOreGen {
 
                 //World Generation
             } else {
-                genOre(biome, 15, 8, 5, 61, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.Copper_Ore.get().getDefaultState(), 6);
-                genOre(biome, 13, 8, 5, 40, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.Copper_Ore.get().getDefaultState(), 5);
+                genOre(biome, 15, 8, 5, 60, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.Copper_Ore.get().getDefaultState(), 6);
+                genOre(biome, 13, 8, 5, 40, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.Tin_Ore.get().getDefaultState(), 5);
             }
         }
     }
