@@ -19,7 +19,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 import java.util.List;
 import java.util.Collections;
-
+import java.util.Properties;
 
 
 @TransparentBlock.ModElement.Tag
@@ -35,6 +35,7 @@ public class AuroraBlock extends TransparentBlock.ModElement {
         elements.items
                 .add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
     }
+
     @Override
     @OnlyIn(Dist.CLIENT)
     public void clientLoad(FMLClientSetupEvent event) {
@@ -42,7 +43,7 @@ public class AuroraBlock extends TransparentBlock.ModElement {
     }
     public static class CustomBlock extends Block {
         public CustomBlock() {
-            super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f));
+            super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).notSolid());
             setRegistryName("aurora_block");
         }
 
