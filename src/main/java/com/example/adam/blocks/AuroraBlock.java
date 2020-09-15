@@ -43,7 +43,7 @@ public class AuroraBlock extends TransparentBlock.ModElement {
     }
     public static class CustomBlock extends Block {
         public CustomBlock() {
-            super(Block.Properties.create(Material.ROCK).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).notSolid());
+            super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).notSolid());
             setRegistryName("aurora_block");
         }
 
